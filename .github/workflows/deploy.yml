@@ -37,3 +37,4 @@ jobs:
           server-dir: ${{ secrets.FTP_SERVER_DIR }}/
           timeout:    600000
           log-level:  verbose
+          security:   strict
