@@ -5,7 +5,7 @@
 
 [**デモ**](https://attitude-converter.tompython.com/)
 
-![Screenshot](./docs/demo.png)
+![Screenshot](./docs/images/demo.png)
 
 ## 機能
 

@@ -4,7 +4,7 @@
 A web-based 3D rotation representation converter
 
 [**Demo**](https://attitude-converter.tompython.com/)
-![Screenshot](./docs/demo.png)
+![Screenshot](./docs/images/demo.png)
 
 ## Features
 
