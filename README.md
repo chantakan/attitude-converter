@@ -1,10 +1,11 @@
+[English](./README.en.md)
 # Attitude Converter
 
 3D回転表現の相互変換ツール
 
-[English](./README.en.md) | [**デモ**](https://attitude-converter.tompython.com/)
+[**デモ**](https://attitude-converter.tompython.com/)
 
-![Screenshot](docs/demo.png)
+![Screenshot](./docs/demo.png)
 
 ## 機能
 
@@ -41,4 +42,4 @@ http://localhost:3000 でアクセス
 
 ## ライセンス
 
-[MIT](LISENCE)
+[MIT](./LISENCE)

@@ -1,10 +1,10 @@
+[日本語](./README.md) | 
 # Attitude Converter
 
 A web-based 3D rotation representation converter
 
-[日本語](./README.md) | [**Demo**](https://attitude-converter.tompython.com/)
-
-![Screenshot](docs/demo.png)
+[**Demo**](https://attitude-converter.tompython.com/)
+![Screenshot](./docs/demo.png)
 
 ## Features
 
@@ -41,4 +41,4 @@ Open http://localhost:3000
 
 ## License
 
-[MIT](LISENCE)
+[MIT](./LISENCE)
