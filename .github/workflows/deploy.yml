@@ -28,8 +28,12 @@ jobs:
       - name: Deploy via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
         with:
-          server: ${{ secrets.FTP_SERVER }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
+          server:     ${{ secrets.FTP_SERVER }}
+          username:   ${{ secrets.FTP_USERNAME }}
+          password:   ${{ secrets.FTP_PASSWORD }}
           local-dir: ./out/
-          server-dir: ${{ secrets.FTP_SERVER_DIR }}/
+          protocol:   ftps
+          port:       21
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          timeout:    600000
+          log-level:  verbose
