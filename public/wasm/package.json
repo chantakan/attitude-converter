@@ -1,0 +1,16 @@
+{
+  "name": "attitude-wasm",
+  "type": "module",
+  "description": "WASM bindings for attitude/rotation representation library",
+  "version": "0.1.0",
+  "files": [
+    "attitude_wasm_bg.wasm",
+    "attitude_wasm.js",
+    "attitude_wasm.d.ts"
+  ],
+  "main": "attitude_wasm.js",
+  "types": "attitude_wasm.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
